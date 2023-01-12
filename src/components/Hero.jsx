@@ -65,7 +65,7 @@ export function Hero() {
                 build and tell their powerful career story.
               </p>
               <div className="flex gap-4 mt-8 md:justify-center lg:justify-start">
-                <Button href="/">Get started</Button>
+                <Button href="https://joblandr.com">View site</Button>
                 <Button href="/" variant="secondary">
                   View on GitHub
                 </Button>
