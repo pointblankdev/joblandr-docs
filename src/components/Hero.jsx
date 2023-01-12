@@ -58,11 +58,12 @@ export function Hero() {
             />
             <div className="relative">
               <p className="inline text-5xl tracking-tight text-transparent bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display">
-                Level up your career
+                JobLandr Documentation
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Answer top interview questions to build and tell your powerful
-                career story.
+                Learn about the platform candidates are using to answer top
+                interview questions to build and tell their powerful career
+                story.
               </p>
               <div className="flex gap-4 mt-8 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>
