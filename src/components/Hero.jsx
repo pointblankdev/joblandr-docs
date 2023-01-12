@@ -8,18 +8,27 @@ import { HeroBackground } from '@/components/HeroBackground'
 import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 
-const codeLanguage = 'javascript'
-const code = `export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
+const codeLanguage = 'go'
+const code = `type Question struct {
+	ID            string   \`json:"id"\`
+	Body          string   \`json:"body"\`
+	Tip           string   \`json:"tip"\`
+	Industry      string   \`json:"industry"\`
+	Company       string   \`json:"company"\`
+	Topic         string   \`json:"topic"\`
+	Role          string   \`json:"role"\`
+	TalkingPoints []string \`json:"talking_points"\`
+	Active        bool     \`json:"active"\`
+	Sample        bool     \`json:"sample"\` 
+
+	Metadata []QuestionMetadata \`json:"metadata"\`
+
+	ModelBase
 }`
 
 const tabs = [
-  { name: 'cache-advance.config.js', isActive: true },
-  { name: 'package.json', isActive: false },
+  { name: 'question.go', isActive: true },
+  { name: 'recording.go', isActive: false },
 ]
 
 function TrafficLightsIcon(props) {

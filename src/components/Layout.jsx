@@ -13,15 +13,9 @@ import { ThemeSelector } from '@/components/ThemeSelector'
 
 const navigation = [
   {
-    title: 'Introduction',
-    links: [
-      { title: 'Getting started', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
-    ],
-  },
-  {
     title: 'Core concepts',
     links: [
+      { title: 'Introduction', href: '/' },
       {
         title: 'Users, Roles, & Profiles',
         href: '/docs/users',
@@ -32,6 +26,18 @@ const navigation = [
       },
       { title: 'Recordings & Feedback', href: '/docs/recordings' },
     ],
+  },
+  {
+    title: 'Integrations',
+    links: [],
+  },
+  {
+    title: 'Architecture guide',
+    links: [],
+  },
+  {
+    title: 'Contributing',
+    links: [{ title: 'Installation', href: '/docs/installation' }],
   },
   // {
   //   title: 'Advanced guides',
